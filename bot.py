@@ -4,9 +4,9 @@ import time
 # Configurações da Twitch
 SERVER = "irc.chat.twitch.tv"
 PORT = 6667  # Padrão IRC da Twitch
-NICKNAME = "gemeodomall"  # Seu nome de usuário na Twitch
-TOKEN = "oauth:5x8y3ahhvef1vo93ql9z7kp6w9cldc"  # OAuth gerado anteriormente
-CHANNEL = "#scavote"  # Nome do canal (coloque com #)
+NICKNAME = ""  # Seu nome de usuário na Twitch
+TOKEN = ""  # OAuth gerado anteriormente
+CHANNEL = ""  # Nome do canal (coloque com #)
 
 # Conectar ao chat da Twitch via socket
 sock = socket.socket()
